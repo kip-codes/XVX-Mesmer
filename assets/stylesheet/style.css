@@ -39,6 +39,7 @@ body {
   font-family: 'Montserrat';
   line-height: 1.0;
   color: #cfe4c2;
+  padding: 20px;
 }
 
 * {
@@ -106,7 +107,7 @@ body {
 .tabcontent {
   color: white;
   display: none;
-  /*padding: 80px;*/
+  padding: 25px;
   height: 100%;
   text-align: center;
 }
