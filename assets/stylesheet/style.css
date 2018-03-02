@@ -106,7 +106,7 @@ body {
 .tabcontent {
   color: white;
   display: none;
-  padding: 80px;
+  /*padding: 80px;*/
   height: 100%;
   text-align: center;
 }
@@ -132,9 +132,14 @@ body {
     background-color: transparent;
 }
 
+img.traitline {
+  width: 50px;
+  height: 50px;
+}
+
 /* This is where you change the tab colors */
 /* test */
-#firstBuild {
+#supportChrono {
   background-color: #C0126E;
 }
 
