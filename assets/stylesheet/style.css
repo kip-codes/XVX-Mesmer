@@ -94,7 +94,8 @@ body {
   padding: 14px 16px;
   font-size: 24px;
 /* Adjust width % based on how many tabs you have */
-  width: 33.33%;
+  /*width: 33.33%;*/
+    flex: 1;
 }
 
 /* Feel free to change this to whatever color you prefer */
@@ -123,6 +124,12 @@ body {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
 }
 
 /* This is where you change the tab colors */
